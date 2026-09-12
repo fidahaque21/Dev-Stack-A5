@@ -3,10 +3,8 @@ const Footer = () => {
         <footer className="border-t border-gray-200 bg-white">
             <div className="container mx-auto px-6 py-12 md:px-10 lg:px-16">
 
-                {/* Main Footer */}
                 <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
 
-                    {/* Brand */}
                     <div>
 
                         <img
@@ -21,7 +19,6 @@ const Footer = () => {
                             developers building modern software.
                         </p>
 
-                        {/* Social Links */}
                         <div className="mt-6 flex gap-5">
                             <a
                                 href="#github"
@@ -46,7 +43,6 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Product */}
                     <div>
                         <h3 className="mb-5 text-sm font-bold uppercase tracking-wide text-gray-900">
                             Product
@@ -76,7 +72,6 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Company */}
                     <div>
                         <h3 className="mb-5 text-sm font-bold uppercase tracking-wide text-gray-900">
                             Company
@@ -106,7 +101,6 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Legal */}
                     <div>
                         <h3 className="mb-5 text-sm font-bold uppercase tracking-wide text-gray-900">
                             Legal
@@ -131,7 +125,6 @@ const Footer = () => {
 
                 </div>
 
-                {/* Bottom Footer */}
                 <div className="mt-12 flex flex-col gap-4 border-t border-gray-200 pt-6 md:flex-row md:items-center md:justify-between">
 
                     <p className="text-sm text-gray-400">

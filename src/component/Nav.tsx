@@ -4,9 +4,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Nav = () => {
     return (
         <nav className="sticky top-0 z-50  border-b border-gray-100 bg-white">
-            <div className="container mx-auto flex h-18 items-center justify-between px-4">
-
-               
+            <div className="container mx-auto flex h-18 items-center justify-between px-4">   
                 <div>
                     <a href="/">
                         <img
@@ -16,8 +14,7 @@ const Nav = () => {
                         />
                     </a>
                 </div>
-
-                
+  
                 <div className="hidden md:flex items-center gap-7">
                     <a
                         href="#"

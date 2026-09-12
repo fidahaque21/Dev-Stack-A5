@@ -4,13 +4,9 @@ const Hero = () => {
             <div className="container mx-auto px-1">
 
                 <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
-
-
-                    {/* Left Side */}
                     <div>
                         <h1 className="text-5xl md:text-6xl font-bold leading-tight text-[#10182B]">
                             Build Your Ideal <br />
-
                             <span className="bg-linear-to-r  from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">
                                 Development Stack
                             </span>
@@ -22,9 +18,8 @@ const Hero = () => {
                             fits your next project.
                         </p>
 
-                        {/* Buttons */}
+                        
                         <div className="mt-8 flex flex-wrap gap-4">
-
                             <button className="rounded-lg bg-linear-to-r  from-orange-500 to-pink-500 px-6 py-3 font-semibold text-white transition hover:opacity-90">
                                 Explore Technologies
                             </button>
@@ -32,12 +27,9 @@ const Hero = () => {
                             <button className="rounded-lg border border-gray-300 px-8 py-3 font-medium text-gray-600 transition hover:bg-gray-100">
                                 Learn More
                             </button>
-
                         </div>
                     </div>
 
-
-                    {/* Right Side */}
                     <div className="flex justify-center">
                         <img
                             src="/public/banner-stack.png"
@@ -45,9 +37,7 @@ const Hero = () => {
                             className="w-full max-w-lg object-contain"
                         />
                     </div>
-
                 </div>
-
             </div>
         </section>
     );
