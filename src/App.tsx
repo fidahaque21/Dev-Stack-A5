@@ -11,8 +11,9 @@ function App() {
     <>
     <Nav/>
     <Hero/>
-    <Footer/>
     <HeadingTech/>
+    <Footer/>
+    
     </>
   )
 }
