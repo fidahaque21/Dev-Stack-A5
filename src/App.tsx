@@ -1,4 +1,5 @@
 import Hero from "./component/banner"
+import Footer from "./component/footer"
 import Nav from "./component/Nav"
 
 
@@ -9,6 +10,7 @@ function App() {
     <>
     <Nav/>
     <Hero/>
+    <Footer/>
     </>
   )
 }
