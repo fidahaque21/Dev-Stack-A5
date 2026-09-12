@@ -1,6 +1,7 @@
 import Hero from "./component/banner"
 import Footer from "./component/footer"
 import Nav from "./component/Nav"
+import HeadingTech from "./component/Technologies/Heading"
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <Nav/>
     <Hero/>
     <Footer/>
+    <HeadingTech/>
     </>
   )
 }
