@@ -1,20 +1,19 @@
 import { GiHamburgerMenu } from "react-icons/gi";
-
+import '../../src/index.css'
 
 const Nav = () => {
     return (
-        <nav className="sticky top-0 z-50  border-b border-gray-100 bg-white">
-            <div className="container mx-auto flex h-18 items-center justify-between px-4">   
+        <nav className="sticky  top-0 z-50  border-b border-gray-100 bg-white">
+            <div className=" mx-auto flex h-18 items-center justify-between px-4 container ">   
                 <div>
                     <a href="/">
                         <img
-                            src="/public/logo-text.png"
+                            src="/logo-text.png"
                             alt="Dev Stack"
                             className="w-28"
                         />
                     </a>
                 </div>
-  
                 <div className="hidden md:flex items-center gap-7">
                     <a
                         href="#"

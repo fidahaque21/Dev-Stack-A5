@@ -1,5 +1,5 @@
 import type { TechnologiesType } from "../../type";
-
+import '../../index.css'
 interface SelectedProps {
     selectedTechnologies: TechnologiesType[];
     onRemove: (id: string) => void;

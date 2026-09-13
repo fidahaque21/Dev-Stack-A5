@@ -1,6 +1,6 @@
 
 import type { TechnologiesType } from "../../type";
-
+import '../../index.css'
 interface TechnologyProps {
     technology: TechnologiesType;
     onAdd: (technology: TechnologiesType) => void;

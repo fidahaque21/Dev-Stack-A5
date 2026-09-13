@@ -1,3 +1,5 @@
+import '../../src/index.css'
+
 const Hero = () => {
     return (
         <section className="mt-20 flex items-center">
@@ -32,7 +34,7 @@ const Hero = () => {
 
                     <div className="flex justify-center">
                         <img
-                            src="/public/banner-stack.png"
+                            src="/banner-stack.png"
                             alt="Development Stack"
                             className="w-full max-w-lg object-contain"
                         />

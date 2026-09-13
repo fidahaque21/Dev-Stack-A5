@@ -1,6 +1,7 @@
+import '../../src/index.css'
 const Footer = () => {
     return (
-        <footer className="border-t border-gray-200 bg-white">
+        <footer className="mt-7 border-t border-gray-200 bg-white">
             <div className="container mx-auto px-6 py-12 md:px-10 lg:px-16">
 
                 <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
@@ -8,7 +9,7 @@ const Footer = () => {
                     <div>
 
                         <img
-                            src="/public/logo-text.png"
+                            src="/logo-text.png"
                             alt="DevStack"
                             className="h-10 w-auto"
                         />

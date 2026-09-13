@@ -4,6 +4,8 @@ import Technology from "./Technology";
 import Selected from "./Selected";
 import { Bounce, toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import '../../index.css'
+
 interface techProps {
     techPromise: Promise<TechnologiesType[]>;
 }

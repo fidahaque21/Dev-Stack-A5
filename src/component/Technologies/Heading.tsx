@@ -1,3 +1,4 @@
+import '../../index.css'
 const HeadingTech = () => {
     return (
         <section className="py-10 ">
