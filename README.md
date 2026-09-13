@@ -98,7 +98,7 @@ In my project, I used conditional rendering for the selected technology stack. I
                     </>
 Answer no.7
 We pass data from a parent to a child using props.
-<TechnologyCard onAdd={handleAdd} />
+<!-- <TechnologyCard onAdd={handleAdd} /> -->
 
 i pass a function as a props (child to parent)
 onAdd={handleAddToStack}
